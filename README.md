@@ -136,3 +136,21 @@ This demo shows: Start up -> Infinite Loop -> LDAP Injection -> UnsatisfiedLinkE
   EasyBuggy clone build on Django 2 and written in Python
 
   　![logo](https://github.com/k-tamura/easybuggy4django/blob/master/static/easybuggy.png)
+
+```sh
+install maven from the apache
+
+Sudo tar -xzvf file_name
+
+Mv maven_file maven (rename the apache file as maven)
+
+## Copy maven into usr directory
+
+Cp -r maven/ /usr/share
+
+## Create a symbolic link
+
+Sudo ln -s /usr/share/maven/bin/mvn /susr/bin/mvn
+
+```
+
